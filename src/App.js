@@ -8,6 +8,7 @@ function App() {
 		<div>
 			<Switch>
 				<Route path="/gamepage" component={GamePagee} />
+				{/* <Route path="/gamepage" component={GamePagee} /> */}
 				<Route path="/home" component={Landing} />
 				<Redirect from="/" to="/home" />
 			</Switch>

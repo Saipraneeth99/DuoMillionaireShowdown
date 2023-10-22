@@ -12,3 +12,7 @@ h1 {
 	align-items: center;
 	justify-content: center;
 }
+.custm-card{
+	background-color: #b501b5;
+	box-shadow: 0px 2px 2px 1px #00000042;
+}
