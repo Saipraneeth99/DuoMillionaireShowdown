@@ -52,6 +52,29 @@ export default function Disclaimer(props) {
 					}
 					alt="exclamaition mark"
 				/>
+				<div className="row">
+					<div className="col-md-4">
+						<div className="card custm-card">
+							<div className="card-body">
+
+							</div>
+						</div>
+					</div>
+					<div className="col-md-4">
+					<div className="card custm-card">
+							<div className="card-body">
+								
+							</div>
+						</div>
+					</div>
+					<div className="col-md-4">
+					<div className="card custm-card">
+							<div className="card-body">
+								<div className="card-heading"></div>
+							</div>
+						</div>
+					</div>
+				</div>
 				<div
 					style={{
 						color: "whitesmoke",

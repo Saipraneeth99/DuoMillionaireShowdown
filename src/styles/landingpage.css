@@ -12,3 +12,29 @@ h1 {
 	align-items: center;
 	justify-content: center;
 }
+.custm-card{
+	background-color: #b501b5;
+	box-shadow: 0px 2px 2px 1px #00000042;
+}
+
+/* Add in your styles/landing.css or wherever your styles reside */
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalContent {
+    background-color: white;
+	color: white !important;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%; /* or any desired width */
+    max-width: 850px; /* limit the width */
+    position: relative; /* if you want to add close buttons or any other absolute positioned elements inside */
+}
+
+/* .buzz-modal{
+	max-width: 850px;
+	color: white !important;
+} */
