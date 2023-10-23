@@ -5,6 +5,8 @@ import { questionData } from '../buzzerqa';
 import '../styles/landingpage.css';
 import back from "../images/bg.jpg";
 import { Link, useHistory } from "react-router-dom";
+import correct from '../images/1545571884.png';
+import incorrect from '../images/milker_X_icon.png';
 
 const Landing = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -58,8 +60,8 @@ const Landing = () => {
             className="backside"
             style={{ backgroundImage: `url(${back})` }}
         >
-           {isVisible && ( <button
-                id = "button-play-now"
+            {isVisible && (<button
+                id="button-play-now"
                 style={{
                     height: "20%",
                     width: "inherit",
@@ -84,7 +86,12 @@ const Landing = () => {
                         onAnswerSelected={onAnswerSelected}
                         setTimerRunning={setTimerRunning}
                     />
-                    <p>{message}</p>
+                    <p>{message === 'Correct!' && (
+                        <img  src={correct} alt="Image 1" />
+                    )}
+                    {message === 'Incorrect answer! Try again.' && (
+                            <img src={incorrect} alt="Image 2" />
+                    )}</p>
                     {showContinueButton && (
                         <button className="btn btn-warning" onClick={Continue}>
                             <b>Continue Game</b>
