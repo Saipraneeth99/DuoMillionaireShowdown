@@ -349,7 +349,7 @@ const Landing = () => {
                 aria-describedby="quiz-modal-description"
                 className="modal"
             >
-                <div className="modalContent">
+                <div className="modalContent buzz-modal">
                     <Buzzer 
                         question={currentQuestion}
                         onAnswerSelected={onAnswerSelected}
