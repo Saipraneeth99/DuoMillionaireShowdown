@@ -1,15 +1,14 @@
 {
-	"name": "kbc",
+	"name": "dms",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": " https://abhinavuppu7.github.io/KaunBanegaCrorepati/",
+	"homepage": " https://saipraneeth99.github.io/CPSC8710/",
 	"dependencies": {
 		"@material-ui/core": "^4.11.4",
 		"@testing-library/jest-dom": "^5.11.4",
 		"@testing-library/react": "^11.1.0",
 		"@testing-library/user-event": "^12.1.10",
 		"bootstrap": "^5.1.0",
-		"gh-pages": "^3.2.3",
 		"react": "^17.0.2",
 		"react-confetti": "^6.0.1",
 		"react-dom": "^17.0.2",
@@ -48,5 +47,8 @@
 			"last 1 firefox version",
 			"last 1 safari version"
 		]
+	},
+	"devDependencies": {
+		"gh-pages": "^6.0.0"
 	}
 }

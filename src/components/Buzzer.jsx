@@ -26,20 +26,20 @@ const Buzzer = ({ question, onAnswerSelected, setTimerRunning }) => {
     setTimerRunning(false);
     setSelectedAnswer(a);
     setClassName("answer active");
-    delay(3000, () => {
+    delay(2000, () => {
       setClassName(a.correct ? "answer correct" : "answer wrong");
     });
-    delay(5000, () => {
+    delay(3500, () => {
       if (a.correct) {
         correctAnswerSound();
-        delay(1000, () => {
+        delay(500, () => {
           setSelectedAnswer(null);
           setTimerRunning(true);
           onAnswerSelected(true);
         });
       } else {
         wrongAnswerSound();
-        delay(1000, () => {
+        delay(500, () => {
           onAnswerSelected(false);
         });
       };
