@@ -1,7 +1,7 @@
 .question {
 	display: flex;
 	height: auto;
-
+	width :150%;
 	justify-content: space-between;
 	align-items: space-between;
 }

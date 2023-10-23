@@ -4,6 +4,7 @@
 	justify-content: space-evenly;
 	align-items: center;
 	margin-left: 10%;
+	padding-left: -100px;
 }
 .levelup {
 	display: none;

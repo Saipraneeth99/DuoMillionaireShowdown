@@ -4,10 +4,10 @@ import wrong from "../audio/wrong answer.mp3";
 import correct from "../audio/correct.mp3";
 import claps from "../audio/clapping.mp3";
 export default function Timer(props) {
-	const [t, Settime] = useState(30);
+	const [t, Settime] = useState(60); //change here for time
 
 	useEffect(() => {
-		Settime(30);
+		Settime(60); //change here for time
 	}, [props.level]);
 	console.log(props.level);
 	useEffect(() => {
