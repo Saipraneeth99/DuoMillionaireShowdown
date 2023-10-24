@@ -120,3 +120,32 @@ Our project drew inspiration from this reference codebase:
 - **React's Component-Centric Architecture:** Our game development strategy embraced React's component-focused architecture, dissecting complex game features into organized, modular components. This not only facilitated development but also ensured code maintainability. Component-specific creations for game features, including lifelines, timers, modals, and more, provided a well-structured, navigable, and optimizable codebase. This strategy enabled component reuse across the game, boosting our development efficiency.
 - **Buzzer System:** The DUO Millionaire Showdown's buzzer system departs slightly from the conventional time-bound method. In our game, the emphasis is more on spontaneity and strategic thinking. The absence of a set timer for questions gives the host the flexibility to interact and engage with the teams more personalized during a video call, thus elevating the sense of competition and camaraderie.
 - **Question Display Evolution:** The heart of any quiz game lies in question presentation. Our explorative approach saw multiple UI designs for question displays. React's prowess enabled dynamic component behavior, supporting real-time question loading and production.
+
+**Challenges:**
+
+- **UI Adaptation and Rule Integration:**
+Adapting the game for group play meant reshaping both rules and UI. Transitioning from the classic Millionaire setup to a group-focused format tested our adaptability.
+
+- **Legacy Code Navigation:**
+Unpacking old, buggy code was a maze. Version incompatibilities added to the challenge, demanding a keen understanding of past and present interactions.
+
+- **React Familiarization:**
+A segment of our team was initially unfamiliar with React. Getting up to speed with this framework, especially for UI development.
+
+- **Team Synergy:**
+Blending different skills and perspectives into one unified project vision took open dialogue and some compromise. Yet, it enriched our final product with diverse inputs.
+
+
+**Insights on the Project Journey:**
+
+In the realm of software engineering, adaptability, teamwork, and structured methodologies stand paramount. Our journey with this project illuminated these facets in tangible ways.
+
+- **What Worked:**
+The diversity of perspectives became our strength, spurring innovative features and deepening our conceptualization of the game. This diversity and persistent communication facilitated problem-solving, making our scrum meetings productive. The teachings from our Foundations of Software Engineering course resonated with our practical approach, emphasizing the undeniable value of teamwork and effective coordination.
+
+- **What Didn't Work:**
+Our initial enthusiasm steered us towards ambitious features, perhaps without the immediate expertise to realize them. This overreach was a misstep. However, it paved the way for introspection. We dove deep into understanding the code, strategically breaking down features, prioritizing bug fixes, and aligning our ambitions with our skill set. Implementing agile principles, we categorized our tasks into story points, and through meticulous prioritization, we navigated our way to project completion.
+
+- **Lessons Learned:**
+This project served as a mirror, reflecting the diverse personalities and thought processes that often converge in software teams. The cornerstone to harmonizing these differences is robust communication. Documenting our scrum sessions, allocating tasks rooted in individual strengths, and harnessing version control through git emerged as pivotal best practices. Through these, we learned the essence of streamlining development processes, reaffirming that process and people management are as crucial as technical prowess in software engineering.
+
