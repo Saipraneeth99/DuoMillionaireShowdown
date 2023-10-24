@@ -1,8 +1,8 @@
 
 # CPSC8710
-### The game is hosted on [https://saipraneeth99.github.io/CPSC8710/](https://saipraneeth99.github.io/CPSC8710/)
 
 ## **DUO MILLIONAIRE SHOWDOWN**
+### The game is hosted on [https://saipraneeth99.github.io/CPSC8710/](https://saipraneeth99.github.io/CPSC8710/)
 
 **Game Objective:**
 
