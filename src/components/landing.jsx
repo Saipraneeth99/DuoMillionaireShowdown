@@ -5,6 +5,7 @@ import { questionData } from '../buzzerqa';
 import '../styles/landingpage.css';
 import back from "../images/bg.jpg";
 import { Link, useHistory } from "react-router-dom";
+import logo from '../images/logo.png'
 import correct from '../images/1545571884.png';
 import incorrect from '../images/milker_X_icon.png';
 
@@ -59,7 +60,9 @@ const Landing = () => {
         <div
             className="backside"
             style={{ backgroundImage: `url(${back})` }}
+			
         >
+			<div > <img src={logo} /></div>
             {isVisible && (<button
                 id="button-play-now"
                 style={{

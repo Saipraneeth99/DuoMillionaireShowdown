@@ -11,6 +11,7 @@ h1 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-direction: column;
 }
 .custm-card{
 	background-color: #b501b5;

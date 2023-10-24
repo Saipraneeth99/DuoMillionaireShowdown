@@ -6,6 +6,7 @@ import Poll from "./poll";
 import Optioncomponent from "./option";
 import Lifelinecomponent from "./lifeline";
 import kbcrotate from "../images/kbcrotate.png";
+import logo from "../images/logo.png";
 import Lose from "./Lost";
 import Timer from "./Timer";
 import "../App.css";
@@ -379,7 +380,7 @@ class Question extends Component {
 				</div>
 				{/* quetions and options */}
 				<div className="currentquestion">
-					<img src={kbcrotate} className="App-logo" alt="kbc" />
+					<img src={logo} className="App-logo" alt="kbc" />
 					<div
 						style={{
 							display: "flex",
