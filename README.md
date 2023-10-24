@@ -123,5 +123,8 @@ The genesis and evolution of this game merged inspiration, artistry, and meticul
 
 #### **Development Phase:**
 
-- **React's Component-Centric Design:** The game's foundation was laid on React's component-centric architecture, ensuring each feature was represented as a
+- **React's Component-Centric Design:** The game's foundation was laid on React's component-centric architecture, ensuring each feature was represented as a modular, organized component, boosting both development and maintainability.
 
+- **Buzzer System:** A departure from conventional time-bound methods, our buzzer system focuses on spontaneity and strategy sans any set timer, fostering deeper host-team interaction.
+
+- **Question Display:** The crux of any quiz game. Our journey was marked by iterative UI designs for question displays, leveraging React to instill real-time dynamism.
