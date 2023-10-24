@@ -95,3 +95,10 @@
         width: 55%;
     }
 }
+
+.buzzmod .question{
+	display: block !important;
+}
+.buzzmod .modalContent{
+	width: 850px !important;
+}

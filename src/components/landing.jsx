@@ -75,10 +75,11 @@ const Landing = () => {
             
             <Modal
                 open={isOpen}
-                onClose={handleModalClose}
+				backdrop="static"
+                /*onClose={handleModalClose}*/
                 aria-labelledby="quiz-modal"
                 aria-describedby="quiz-modal-description"
-                className="modal"
+                className="modal buzzmod"
             >
                 <div className="modalContent buzz-modal d-flex flex-column align-items-center justify-content-center">
                     <Buzzer 
