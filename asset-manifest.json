@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/CPSC8710/static/css/main.40ae8abf.chunk.css",
-    "main.js": "/CPSC8710/static/js/main.4b3cc11a.chunk.js",
-    "main.js.map": "/CPSC8710/static/js/main.4b3cc11a.chunk.js.map",
+    "main.css": "/CPSC8710/static/css/main.dd12df8c.chunk.css",
+    "main.js": "/CPSC8710/static/js/main.cff13dc9.chunk.js",
+    "main.js.map": "/CPSC8710/static/js/main.cff13dc9.chunk.js.map",
     "runtime-main.js": "/CPSC8710/static/js/runtime-main.1e704ac8.js",
     "runtime-main.js.map": "/CPSC8710/static/js/runtime-main.1e704ac8.js.map",
     "static/css/2.c490997a.chunk.css": "/CPSC8710/static/css/2.c490997a.chunk.css",
@@ -12,15 +12,15 @@
     "static/js/3.29668fb8.chunk.js.map": "/CPSC8710/static/js/3.29668fb8.chunk.js.map",
     "index.html": "/CPSC8710/index.html",
     "static/css/2.c490997a.chunk.css.map": "/CPSC8710/static/css/2.c490997a.chunk.css.map",
-    "static/css/main.40ae8abf.chunk.css.map": "/CPSC8710/static/css/main.40ae8abf.chunk.css.map",
+    "static/css/main.dd12df8c.chunk.css.map": "/CPSC8710/static/css/main.dd12df8c.chunk.css.map",
     "static/js/2.47bfbbf5.chunk.js.LICENSE.txt": "/CPSC8710/static/js/2.47bfbbf5.chunk.js.LICENSE.txt",
     "static/js/3.29668fb8.chunk.js.LICENSE.txt": "/CPSC8710/static/js/3.29668fb8.chunk.js.LICENSE.txt",
-    "static/media/bg.c137ccd7.jpg": "/CPSC8710/static/media/bg.c137ccd7.jpg",
+    "static/media/bg.b10963ed.jpg": "/CPSC8710/static/media/bg.b10963ed.jpg",
     "static/media/clapping.fd315631.mp3": "/CPSC8710/static/media/clapping.fd315631.mp3",
     "static/media/correct.36200b66.mp3": "/CPSC8710/static/media/correct.36200b66.mp3",
     "static/media/fifty.6e78f346.png": "/CPSC8710/static/media/fifty.6e78f346.png",
     "static/media/group.47fb8a14.png": "/CPSC8710/static/media/group.47fb8a14.png",
-    "static/media/kbcrotate.d0b337b9.png": "/CPSC8710/static/media/kbcrotate.d0b337b9.png",
+    "static/media/kbcrotate.9e67140c.png": "/CPSC8710/static/media/kbcrotate.9e67140c.png",
     "static/media/ticktock.ec4c69b2.mp3": "/CPSC8710/static/media/ticktock.ec4c69b2.mp3",
     "static/media/wrong answer.8201c8ba.mp3": "/CPSC8710/static/media/wrong answer.8201c8ba.mp3"
   },
@@ -28,7 +28,7 @@
     "static/js/runtime-main.1e704ac8.js",
     "static/css/2.c490997a.chunk.css",
     "static/js/2.47bfbbf5.chunk.js",
-    "static/css/main.40ae8abf.chunk.css",
-    "static/js/main.4b3cc11a.chunk.js"
+    "static/css/main.dd12df8c.chunk.css",
+    "static/js/main.cff13dc9.chunk.js"
   ]
 }
