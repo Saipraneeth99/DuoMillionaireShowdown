@@ -123,14 +123,14 @@ Our project drew inspiration from this reference codebase:
 
 **Development Challenges:**
 
--**UI Adaptation and Rule Integration:**
+- **UI Adaptation and Rule Integration:**
 Adapting the game for group play meant reshaping both rules and UI. Transitioning from the classic Millionaire setup to a group-focused format tested our adaptability.
 
--**Legacy Code Navigation:**
+- **Legacy Code Navigation:**
 Unpacking old, buggy code was a maze. Version incompatibilities added to the challenge, demanding a keen understanding of past and present interactions.
 
--**React Familiarization:**
+- **React Familiarization:**
 A segment of our team was initially unfamiliar with React. Getting up to speed with this framework, especially for UI development.
 
--**Team Synergy:**
+- **Team Synergy:**
 Blending different skills and perspectives into one unified project vision took open dialogue and some compromise. Yet, it enriched our final product with diverse inputs.
