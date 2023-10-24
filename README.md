@@ -121,7 +121,7 @@ Our project drew inspiration from this reference codebase:
 - **Buzzer System:** The DUO Millionaire Showdown's buzzer system departs slightly from the conventional time-bound method. In our game, the emphasis is more on spontaneity and strategic thinking. The absence of a set timer for questions gives the host the flexibility to interact and engage with the teams more personalized during a video call, thus elevating the sense of competition and camaraderie.
 - **Question Display Evolution:** The heart of any quiz game lies in question presentation. Our explorative approach saw multiple UI designs for question displays. React's prowess enabled dynamic component behavior, supporting real-time question loading and production.
 
-**Development Challenges:**
+**Challenges:**
 
 - **UI Adaptation and Rule Integration:**
 Adapting the game for group play meant reshaping both rules and UI. Transitioning from the classic Millionaire setup to a group-focused format tested our adaptability.
