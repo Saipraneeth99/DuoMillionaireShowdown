@@ -4,7 +4,7 @@ Modal.setAppElement("#root");
 export default function MessageModal(props) {
 	async function playtext(a) {
 		const text =
-			"Iam not sure but I think the correct option is  " +
+			"I am not sure but I think the correct option is  " +
 			a +
 			"go for option " +
 			a;

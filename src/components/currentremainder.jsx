@@ -4,51 +4,51 @@ export default function Currentremainder(props) {
 	let level = [
 		{
 			stage: 12,
-			money: "1 Crore",
+			money: "1 Million Dollars",
 		},
 		{
 			stage: 11,
-			money: "₹2500000",
+			money: "$500000",
 		},
 		{
 			stage: 10,
-			money: "₹1250000",
+			money: "$250000",
 		},
 		{
 			stage: 9,
-			money: "₹640000",
+			money: "$125000",
 		},
 		{
 			stage: 8,
-			money: "₹320000",
+			money: "$100000",
 		},
 		{
 			stage: 7,
-			money: "₹80000",
+			money: "$50000",
 		},
 		{
 			stage: 6,
-			money: "₹40000",
+			money: "$20000",
 		},
 		{
 			stage: 5,
-			money: "₹20000",
+			money: "$10000",
 		},
 		{
 			stage: 4,
-			money: "₹10000",
+			money: "$5000",
 		},
 		{
 			stage: 3,
-			money: "₹5000",
+			money: "$2500",
 		},
 		{
 			stage: 2,
-			money: "₹2500",
+			money: "$1000",
 		},
 		{
 			stage: 1,
-			money: "₹100",
+			money: "$500",
 		},
 	];
 	return (
