@@ -363,12 +363,12 @@ class Question extends Component {
 						handlelifeline={this.handlefifty}
 						imgheight="50px"
 					/>
-					<Lifelinecomponent
+					{/* <Lifelinecomponent
 						lifelineoption={this.state.pollOption}
 						src={group}
 						handlelifeline={this.handlePoll}
 						imgheight="80px"
-					/>
+					/> */}
 					<Lifelinecomponent
 						lifelineoption={this.state.dialOption}
 						src={
