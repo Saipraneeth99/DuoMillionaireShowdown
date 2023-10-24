@@ -1,6 +1,7 @@
-# CPSC8710 
 
-**MILLIONAIRE DUO SHOWDOWN**
+# CPSC8710
+
+## **MILLIONAIRE DUO SHOWDOWN**
 
 **Game Objective:**
 
@@ -8,123 +9,113 @@ In "DUO Millionaire Showdown," teams comprising two players embark on a competit
 
 - **The Buzzer Round:** Multiple duo teams face off in a high-stakes buzzer round. Here, quick reflexes are as crucial as knowledge. Teams must be swift and accurate, pressing the buzzer to answer questions before their opponents. The winning team from this round progresses to the next stage.
 
- - **The Millionaire Challenge:** Building on their victory in the buzzer round, the triumphant duo enters this round, drawing them closer to the million-dollar grand prize. In this stage, their knowledge gets tested, and their ability to think on their feet becomes essential. Each correct answer takes them a step closer to becoming millionaires.
+ - **The Millionaire Challenge:** Building on their victory in the buzzer round, the triumphant duo enters this round, drawing them closer to the million-dollar grand prize. Their knowledge gets tested in this stage, and their ability to think on their feet becomes essential. Each correct answer takes them a step closer to becoming millionaires.
+
+---
+
+**Game Rules:**
+
+- **Buzzer System:** The buzzer mechanism is integral to the game's competitive spirit. Here, dual teams view the chance to answer a question. The honor of responding goes to the team demonstrating knowledge and agility by hitting the buzzer first.
+- **Levels of Difficulty:** The journey to the million-dollar prize is complex. The game is structured across multiple levels, with each successive level presenting questions of escalating complexity. As the stakes rise, so does the challenge.
+- **Correct Answers:** Precision is rewarded. When contestants answer correctly, they proceed to the next round, where greater monetary rewards await. Every correct answer brings them closer to the million-dollar prize.
+- **Incorrect Answers:** However, a misstep can be costly. An incorrect answer halts the team's progress, culminating their journey. Their final score reflects the total money accumulated up to that point.
+- **Lifelines:** Players aren't left entirely to their own devices for those particularly challenging questions. They can leverage lifelines—tools that offer assistance or insights. Currently, two lifelines are available, and strategic use is advised, as they can be the difference between progression and termination.
+- **Time Restriction:** A ticking clock further intensifies the pressure. Specific questions come with a stringent time limit—currently 60 seconds. Teams must be accurate and swift, answering within the stipulated timeframe.
+
+Inspired by the suspense and strategy of the iconic "Who Wants to Be a Millionaire" game show, "DUO Millionaire Showdown" introduces the unique twist of cooperative gameplay. Here, the fusion of teamwork, profound knowledge, and nimble decision-making are the keys to unlocking victory.
 
 
-### Game Rules:
 
-- **Buzzer System:** An embodiment of the game's competitive essence. Dual teams jostle for the privilege of answering, with the right reserved for the team that showcases the perfect blend of knowledge and reflex by buzzing first.
+---
 
-- **Levels of Difficulty:** The path to a million is intricate. The game charts a journey across various levels, each subsequent one ratcheting up the complexity of questions. As the rewards grow, so does the challenge.
+**Technology Stack Used:**
 
-- **Correct Answers:** Precision pays. Correct answers propel contestants to subsequent rounds with loftier monetary rewards. Each right answer edges them closer to that coveted million-dollar prize.
+- **Frontend Framework:**  React: The core foundation upon which your application is built, enabling the creation and management of user interfaces.
+- **Styling & UI Components:** 
+  - Material-UI: This React-based UI framework adheres to Google's Material Design guidelines, especially for icons.
+  - Bootstrap:  Frontend framework for creating responsive designs with pre-styled components.
+- **Audio Integration:** We employed Web Audio API for audio usage in the application.
 
-- **Incorrect Answers:** Tread carefully. Missteps have consequences. A wrong answer truncates the team's journey, with their final score being the sum total of their winnings until that juncture.
+---
 
-- **Lifelines:** Not all battles are fought alone. For daunting questions, players can resort to lifelines— invaluable aids providing insights or assistance. With just two lifelines on offer, their judicious deployment is paramount.
+**Build and Deployment:**
 
-- **Time Restriction:** The relentless march of time adds another layer of intensity. Certain questions demand answers within a tight 60-second window. Speed and accuracy, hence, are of the essence.
+To deploy our React application, we utilized GitHub Pages because of its user-friendly nature and its seamless integration with GitHub repositories.
 
-Drawing from the tension and tactics of the iconic "Who Wants to Be a Millionaire" game show, "DUO Millionaire Showdown" augments the experience with cooperative gameplay. Success here is a fusion of team synergy, profound knowledge, and astute decision-making.
+**Build Tools:**
 
-### Technology Stack:
+1. We began by adding the `gh-pages` package, which simplifies the process of deploying to GitHub Pages:
 
-#### Frontend Framework:
+```bash
+yarn add gh-pages --dev
+```
+2. Our `package.json` was subsequently updated for the appropriate homepage and included scripts to aid deployment.
+3. The final step was constructing and deploying the application via:
+```bash
+yarn deploy
+```
+Upon running the deploy command, our React application is compiled, and the resulting static files are pushed to the `gh-pages` branch of our GitHub repository. This action effectively makes our application live and accessible via GitHub Pages.
 
-- **React:** The bedrock of our application, facilitating seamless UI creation and management.
+**Package Management:** Yarn, an npm alternative, provides efficient dependency management, ensuring consistent tool and library availability.
 
-#### Styling & UI Components:
+**Languages & Technologies:**
+- JavaScript (JS): The principal programming language for building and controlling the application's behavior
+- CSS: responsible for styling, theming, and the visual aesthetics of the application
+- HTML: Defines the structure of your application, though, in a React context, it's largely represented via JSX.
 
-- **Material-UI:** A React-centric framework, mirroring Google's Material Design principles, especially for icons.
-- **Bootstrap:** Esteemed for spawning responsive designs enriched with pre-styled components.
+---
 
-#### Routing:
+**Setup and Deployment Instructions:**
 
-- **React Router:** The linchpin for in-app navigation, enabling the structuring of multi-view applications.
+**Node Package Manager (npm) Installation:** Before diving into the project, install the Node Package Manager (npm). The npm is essential as it manages the project's dependencies.
 
-#### Audio Integration:
+**Installing Dependencies with Yarn:** With npm operational, employ Yarn, an efficient package manager, to install the project's dependencies:
+```bash
+yarn install
+```
+**Starting the Development Server:** After ensuring all dependencies are in place, you can initiate the game's development server. :
+```bash
+yarn start
+```
+This will boot up the DUO Millionaire Showdown game on your local development server.
 
-- **Web Audio API:** The auditory soul, vital for the playback of soundtracks and melodies in our web application.
 
-#### Build & Deployment:
+**Possible Errors Encountered and Fixes:**
 
-Harnessing the user-friendliness of GitHub Pages, our React application was deployed with finesse. 
+- **Yarn Not Found:** If confronted with Yarn installation issues:
+```bash
+npm install -g yarn
+```
+- **Node Version Incompatibility:** The project depends on the right Node.js version. Confirm your Node version with `node -v`. If it isn't version 16, the Node Version Manager (nvm) comes in handy. Transition to Node version 16 with:
+```bash
+nvm install 16
+nvm use 16
+```
+By following the above instructions and fixes, you should be able to successfully set up and deploy the DUO Millionaire Showdown game on your local machine.
 
-##### Build Tools:
+---
 
-1. The journey commenced with integrating the `gh-pages` package, simplifying GitHub Pages deployment:
+**Credits for Third-Party Assets and Code:** 
 
-   ```bash
-   yarn add gh-pages --dev
-   ```
+Our project drew inspiration from this reference codebase:
+[https://github.com/abhinavuppu7/KaunBanegaCrorepati/tree/main/public](https://github.com/abhinavuppu7/KaunBanegaCrorepati/tree/main/public)
 
-2. The `package.json` file was then revamped to ascertain the precise homepage was designated, and scripts were incorporated to streamline deployment.
+---
 
-3. The culmination saw the application being built and rolled out using:
+**Design and Development Process:**
 
-   ```bash
-   yarn deploy
-   ```
+**Overview:** Inspired by the renowned quiz show format, our ambition for DUO Millionaire Showdown was to craft an immersive gaming experience heightened by introducing innovative features that make gameplay even more riveting.
 
-On executing the deploy command, our React application is transmuted into static files, nested within the `gh-pages` branch of our GitHub repository, making it readily accessible.
+**Design Phase:**
 
-#### Package Management:
+- **User Interface (UI) Design:** Our design, mirroring the iconic TV show, prioritized intuitive and captivating interfaces. Central design components encompassed the question presentation layout and the hallmark lifelines like "phone a friend" and "50-50". Our objective was crafting an experience mirroring the TV version yet optimized for digital platforms.
+- **Game Mechanics:** Establishing the fundamental rules and gameplay mechanics was essential. Opting for a two-player team format added a unique dimension to the game, amplifying competition and camaraderie. We introduced a buzzer system to determine which team gets the opportunity to tackle the questions, adding layers of strategy and excitement to each session.
+- **Question Database Creation:** A comprehensive question database is the backbone of any quiz game. This involved framing and categorizing questions and ensuring accurate answers were available. Additionally, we designed appropriate lifeline choices to assist players in navigating trickier challenges. This game's design and development journey has blended inspiration, creativity, and meticulous planning.
 
-- **Yarn:** An efficacious npm alternative, ensuring the consistent availability of project dependencies.
 
-#### Languages & Technologies:
 
-- **JavaScript (JS):** The crux, directing application behavior.
-- **CSS:** The stylist, defining aesthetics and themes.
-- **HTML:** The skeleton, though majorly represented as JSX within our React setup.
+**Development Phase:**
 
-### Setup & Deployment Instructions:
-
-#### **Node Package Manager (npm) Installation:** 
-
-Kickstart your journey by instating the Node Package Manager (npm), pivotal for managing dependencies.
-
-#### **Installing Dependencies with Yarn:** 
-
-Post npm's establishment, pivot to Yarn, and inaugurate the project dependencies with `yarn install`.
-
-#### **Initiating the Development Server:** 
-
-Upon satiating all dependency requisites, ignite the game server using `yarn start`.
-
-### Potential Hitches & Remedies:
-
-- **Yarn Not Found:** Stumble upon a Yarn discrepancy? Address it by globally instating Yarn via npm: `npm install -g yarn`.
-
-- **Node Version Discrepancy:** Ensure Node.js compatibility. Check your current version with `node -v`. If the response isn't version 16, employ the Node Version Manager (nvm) and transition to Node version 16 via `nvm install 16` followed by `nvm use 16`.
-
-Follow this trail, and the DUO Millionaire Showdown game should be up and running locally.
-
-### Credits:
-
-We've incorporated insights from the following repository:
-[Reference Codebase](https://github.com/abhinavuppu7/KaunBanegaCrorepati/tree/main/public)
-
-### Design & Development Process:
-
-#### **Overview:**
-
-Inspired by illustrious quiz formats, our vision for DUO Millionaire Showdown was to sculpt an engrossing experience amplified with novel features.
-
-#### **Design Phase:**
-
-- **UI Design:** Taking cues from its TV show progenitor, our intent was to concoct an interface that's both intuitive and visually engaging, embodying elements like question layouts and iconic lifelines, thereby mirroring the TV experience while exploiting the digital platform.
-
-- **Game Mechanics:** The underpinning rules and mechanics were pivotal. A two-player team paradigm infused competition and camaraderie, with the buzzer system accentuating strategy and thrill.
-
-- **Question Database:** The lifeblood of any quiz, necessitating comprehensive framing, categorization, and verification of questions and answers, alongside crafting lifelines for trickier scenarios.
-
-The genesis and evolution of this game merged inspiration, artistry, and meticulous blueprinting.
-
-#### **Development Phase:**
-
-- **React's Component-Centric Design:** The game's foundation was laid on React's component-centric architecture, ensuring each feature was represented as a modular, organized component, boosting both development and maintainability.
-
-- **Buzzer System:** A departure from conventional time-bound methods, our buzzer system focuses on spontaneity and strategy sans any set timer, fostering deeper host-team interaction.
-
-- **Question Display:** The crux of any quiz game. Our journey was marked by iterative UI designs for question displays, leveraging React to instill real-time dynamism.
+- **React's Component-Centric Architecture:** Our game development strategy embraced React's component-focused architecture, dissecting complex game features into organized, modular components. This not only facilitated development but also ensured code maintainability. Component-specific creations for game features, including lifelines, timers, modals, and more, provided a well-structured, navigable, and optimizable codebase. This strategy enabled component reuse across the game, boosting our development efficiency.
+- **Buzzer System:** The DUO Millionaire Showdown's buzzer system departs slightly from the conventional time-bound method. In our game, the emphasis is more on spontaneity and strategic thinking. The absence of a set timer for questions gives the host the flexibility to interact and engage with the teams more personalized during a video call, thus elevating the sense of competition and camaraderie.
+- **Question Display Evolution:** The heart of any quiz game lies in question presentation. Our explorative approach saw multiple UI designs for question displays. React's prowess enabled dynamic component behavior, supporting real-time question loading and production.
