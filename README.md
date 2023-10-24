@@ -1,4 +1,6 @@
-# CPSC8710
+# CPSC8710 
+
+**MILLIONAIRE DUO SHOWDOWN**
 
 **Game Objective:**
 
