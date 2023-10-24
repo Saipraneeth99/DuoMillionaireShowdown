@@ -119,3 +119,17 @@ Our project drew inspiration from this reference codebase:
 - **React's Component-Centric Architecture:** Our game development strategy embraced React's component-focused architecture, dissecting complex game features into organized, modular components. This not only facilitated development but also ensured code maintainability. Component-specific creations for game features, including lifelines, timers, modals, and more, provided a well-structured, navigable, and optimizable codebase. This strategy enabled component reuse across the game, boosting our development efficiency.
 - **Buzzer System:** The DUO Millionaire Showdown's buzzer system departs slightly from the conventional time-bound method. In our game, the emphasis is more on spontaneity and strategic thinking. The absence of a set timer for questions gives the host the flexibility to interact and engage with the teams more personalized during a video call, thus elevating the sense of competition and camaraderie.
 - **Question Display Evolution:** The heart of any quiz game lies in question presentation. Our explorative approach saw multiple UI designs for question displays. React's prowess enabled dynamic component behavior, supporting real-time question loading and production.
+
+**Development Challenges:**
+
+-**UI Adaptation and Rule Integration:**
+Adapting the game for group play meant reshaping both rules and UI. Transitioning from the classic Millionaire setup to a group-focused format tested our adaptability.
+
+-**Legacy Code Navigation:**
+Unpacking old, buggy code was a maze. Version incompatibilities added to the challenge, demanding a keen understanding of past and present interactions.
+
+-**React Familiarization:**
+A segment of our team was initially unfamiliar with React. Getting up to speed with this framework, especially for UI development.
+
+-**Team Synergy:**
+Blending different skills and perspectives into one unified project vision took open dialogue and some compromise. Yet, it enriched our final product with diverse inputs.
